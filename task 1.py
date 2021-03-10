@@ -11,7 +11,7 @@ def is_subsequence(array, sequence):
     result = False
     
     if valid:
-        se_pointer, n_match = 0, 0
+        se_pointer = 0
 
         # for each number in array
         for num in array:
